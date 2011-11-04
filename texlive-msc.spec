@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/msc
+# catalog-date 2008-06-02 14:52:39 +0200
+# catalog-license lppl
+# catalog-version 1.16
 Name:		texlive-msc
 Version:	1.16
 Release:	1
@@ -49,6 +55,7 @@ full MSC2000 language.
 %doc %{_texmfdistdir}/doc/latex/msc/manual.tex
 %doc %{_texmfdistdir}/doc/latex/msc/refman.pdf
 %doc %{_texmfdistdir}/doc/latex/msc/refman.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ full MSC2000 language.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
