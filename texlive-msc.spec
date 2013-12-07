@@ -6,7 +6,7 @@
 # catalog-version 1.16
 Name:		texlive-msc
 Version:	1.16
-Release:	5
+Release:	6
 Summary:	Draw MSC diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/msc
