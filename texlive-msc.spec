@@ -1,6 +1,6 @@
 Name:		texlive-msc
-Version:	63291
-Release:	2
+Version:	67718
+Release:	1
 Summary:	Draw MSC diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/msc
