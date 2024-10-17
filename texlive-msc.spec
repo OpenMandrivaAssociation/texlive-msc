@@ -3,7 +3,7 @@ Version:	67718
 Release:	1
 Summary:	Draw MSC diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/msc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/msc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/msc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/msc.doc.r%{version}.tar.xz
